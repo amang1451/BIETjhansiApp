@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="12dp"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/facultyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shivam Pandey"
+                    android:fontFamily="@string/regular"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/title_size"/>
+
+                <TextView
+                    android:id="@+id/facultyPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assosciate Professor"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/regular"
+                    android:layout_marginTop="8dp"
+                    android:textSize="@dimen/title_size"/>
+
+                <TextView
+                    android:id="@+id/facultyEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="shivampandey420@gmail.com"
+                    android:textColor="@color/textColor"
+                    android:fontFamily="@string/regular"
+                    android:textSize="@dimen/text_size"/>
+
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/facultyImage"
+                android:layout_width="80dp"
+                android:layout_height="120dp"
+                android:src="@drawable/avatar"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

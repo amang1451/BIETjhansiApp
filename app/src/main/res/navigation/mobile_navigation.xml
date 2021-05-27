@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeNavigation">
+
+    <fragment android:id="@+id/homeNavigation"
+        android:name="com.example.bietjhansiapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/noticeNavigation"
+        android:name="com.example.bietjhansiapp.ui.notice.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+
+    <fragment android:id="@+id/facultyNavigation"
+        android:name="com.example.bietjhansiapp.ui.faculty.FacultyFragment"
+        android:label="Faculty"
+        tools:layout="@layout/fragment_faculty"/>
+
+    <fragment android:id="@+id/galleryNavigation"
+        android:name="com.example.bietjhansiapp.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+
+    <fragment android:id="@+id/aboutNavigation"
+        android:name="com.example.bietjhansiapp.ui.about.AboutFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about"/>
+
+</navigation>

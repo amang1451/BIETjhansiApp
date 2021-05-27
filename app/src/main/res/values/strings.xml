@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BIET Jhansi App</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/lato_bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lato_light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/lato_regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_colllege">Bundelkhand Institute of Engineering &amp; Technology, Jhansi has proved to be the most preferred destination for aspiring technologists across the country. The institute consistently attracts the finest faculty and the best of students for its Bachelor’s and Master’s programmes. B.I.E.T has a rich tradition of pursuing excellence and has continually re-invented itself in terms of academic programmes and research infrastructure. Students are exposed to challenging research based academics and a host of sport, cultural and organizational activities on its vibrant campus. The presence of world class facilities, vigorous institute-industry collaboration programmes, interdisciplinary research collaborations and industrial training opportunities help students of B.I.E.T to excel and be ahead in the competitive professional environment. In the last twenty years, B.I.E.T has produced many illustrious professionals, whose contributions at national and international levels have been significant.</string>
+    <string name="computer_science_engineering">Computer Science &amp; Engineering</string>
+    <string name="it">Information technology (IT) is the use of computers to store, retrieve, transmit, and manipulate data or information. IT is typically used within the context of business operations as opposed to personal or entertainment technologies. IT is considered to be a subset of information and communications technology (ICT).</string>
+    <string name="ece">Electronic engineering (also called electronics and communications engineering) is an electrical engineering discipline which utilizes nonlinear and active electrical components (such as semiconductor devices, especially transistors and diodes) to design electronic circuits, devices, integrated circuits and their systems.</string>
+    <string name="ee">Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism. It emerged as an identifiable occupation in the latter half of the 19th century after commercialization of the electric telegraph, the telephone, and electrical power generation, distribution and use.</string>
+    <string name="me">Mechanical engineering is the study, design, development, construction, and testing of mechanical and thermal sensors and devices, including tools, engines, and machines. ... Mechanical engineers work mostly in engineering services, research and development, and manufacturing.</string>
+    <string name="ce">Civil engineering is a professional engineering discipline that deals with the design, construction, and maintenance of the physical and naturally built environment, including public works such as roads, bridges, canals, dams, airports, sewerage systems, pipelines, structural components of buildings, and railways.</string>
+    <string name="che">Chemical engineering is a certain type of engineering which deals with the study of operation and design of chemical plants as well as methods of improving production. Chemical engineers develop economical commercial processes to convert raw material into useful products.</string>
+    <string name="mba">The Master of Business Administration (MBA; also Masters in Business Administration) degree originated in the United States in the early 20th century when the country industrialized and companies sought scientific management.[1] The core courses in an MBA program cover various areas of business administration such as accounting, applied statistics, human resources, business communication, business ethics, business law, business strategy, finance, managerial economics, management, entrepreneurship, marketing, supply-chain management, and operations management in a manner most relevant to management analysis and strategy.</string>
+    <string name="cse">One of the most sought after courses amongst engineering students, Computer Science Engineering (CSE) is an academic programme which integrates the field of Computer Engineering and Computer Science. The programme, which emphasises the basics of computer programming and networking, comprises a plethora of topics</string>
+
+    <string-array name="theme">
+        <item>System default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+
+
+</resources>
